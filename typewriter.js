@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs";
+const sentence = "Now it works.";
 
 const typeEachCharactor = (sentence) => {
   for (let i = 0; i < sentence.length; i++) {
@@ -12,4 +12,4 @@ const typeEachCharactor = (sentence) => {
     console.log();
   }, 500 * (sentence.length + 1));
 };
-typeEachCharactor("Now it works.");
+typeEachCharactor(sentence);
